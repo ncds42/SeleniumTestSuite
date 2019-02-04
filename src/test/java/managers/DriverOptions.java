@@ -12,7 +12,6 @@ public class DriverOptions {
 	
 	public ChromeOptions getChromeOptions() {
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless");
 		options.addArguments("--start-maximized");
 		options.addArguments("--ignore-certificate-errors");
 		options.addArguments("--disable-popup-blocking");
