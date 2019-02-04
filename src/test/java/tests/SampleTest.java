@@ -13,7 +13,6 @@ public class SampleTest {
 	@Test
 	public void test() {
 		WebDriver driver = DriverFactory.getDriver();
-		System.out.println(System.getProperties().toString());
 		driver.navigate().to("https://www.google.com");
 		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
 	}
