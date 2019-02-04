@@ -5,7 +5,7 @@
 		<listener class-name="managers.InvokedMethodListener"></listener>
 	</listeners>
 	<test name="00000" parallel="methods" thread-count="5">
-		<parameter name="browser" value="chromeHeadless" />
+		<parameter name="browser" value="headlessChrome" />
 		<parameter name="remote"  value="true"/>
 		<parameter name="gridUrl" value="http://192.168.1.144:4444/wd/hub"/>
 		<classes>
