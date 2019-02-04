@@ -7,7 +7,7 @@
 	<test name="00000" parallel="methods" thread-count="5">
 		<parameter name="browser" value="headlessChrome" />
 		<parameter name="remote"  value="true"/>
-		<parameter name="gridUrl" value="http://http://3.17.201.180:4444/wd/hub"/>
+		<parameter name="gridUrl" value="http://3.17.201.180:4444/wd/hub"/>
 		<classes>
 			<class name="tests.SampleTest" />
 		</classes>
