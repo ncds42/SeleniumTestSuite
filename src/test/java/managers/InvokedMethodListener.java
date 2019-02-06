@@ -43,7 +43,7 @@ public class InvokedMethodListener implements IInvokedMethodListener {
 
 				File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 				try {
-					String dest = "/home/ubuntu/testSuitePictures/";
+					String dest = "testSuitePictures/";
 					String fileName = new Timestamp(System.currentTimeMillis()).toString();
 					fileName = fileName.replaceAll("-","");
 					fileName = fileName.replaceAll(" ","");
