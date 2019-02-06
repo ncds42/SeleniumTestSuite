@@ -1,5 +1,8 @@
 package tests;
 
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -14,50 +17,20 @@ import org.testng.annotations.Test;
 import managers.DriverFactory;
 
 public class SampleTest {
-	
-//	@Parameters("gridUrl")
-//	@Test
-//	public void indie_test(String url) {
-//		ChromeOptions options = new ChromeOptions();
-//		options.addArguments("--start-maximized");
-//		options.addArguments("--ignore-certificate-errors");
-//		options.addArguments("--disable-popup-blocking");
-//		options.setCapability("platform", "LINUX");
-//		options.addArguments("--incognito");
-//		WebDriver driver;
-//		try {
-//			System.out.println("grid hub = " + url);
-//			driver = new RemoteWebDriver(new URL(url), options);
-//			driver.navigate().to("https://www.google.com");
-//			Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
-//			driver.quit();
-//		} catch (MalformedURLException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//		
-//	}
-//	@Test
-//	public void test() {
-//		System.out.println("randomchange");
-//		WebDriver driver = DriverFactory.getDriver();
-//		driver.navigate().to("https://www.google.com");
-//		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
-//	}
-	
-	
+
 	@Test
-	public void test1() {
+	public void Test1() {
 		WebDriver driver = DriverFactory.getDriver();
 		driver.navigate().to("https://www.google.com");
 		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
 	}
 	
 	@Test
-	public void test2() {
+	public void Test2() {
 		WebDriver driver = DriverFactory.getDriver();
-		driver.navigate().to("https://www.google.com");
-		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
+		driver.navigate().to("https://news.ycombinator.com/");
+		assertEquals(driver.getTitle(),"Google","The title didn't match. ");
+
 	}
 //	
 //	@Test
