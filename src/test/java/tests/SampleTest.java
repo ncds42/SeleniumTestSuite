@@ -59,34 +59,34 @@ public class SampleTest {
 		driver.navigate().to("https://www.google.com");
 		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
 	}
-	
-	@Test
-	public void test3() {
-		WebDriver driver = DriverFactory.getDriver();
-		driver.navigate().to("https://www.google.com");
-		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
-	}
-	
-	@Test
-	public void test4() {
-		WebDriver driver = DriverFactory.getDriver();
-		driver.navigate().to("https://www.google.com");
-		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
-	}
-	
-	@Test
-	public void test5() {
-		WebDriver driver = DriverFactory.getDriver();
-		driver.navigate().to("https://www.google.com");
-		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
-	}
-	
-	@Test
-	public void test6() {
-		WebDriver driver = DriverFactory.getDriver();
-		driver.navigate().to("https://www.google.com");
-		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
-	}
+//	
+//	@Test
+//	public void test3() {
+//		WebDriver driver = DriverFactory.getDriver();
+//		driver.navigate().to("https://www.google.com");
+//		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
+//	}
+//	
+//	@Test
+//	public void test4() {
+//		WebDriver driver = DriverFactory.getDriver();
+//		driver.navigate().to("https://www.google.com");
+//		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
+//	}
+//	
+//	@Test
+//	public void test5() {
+//		WebDriver driver = DriverFactory.getDriver();
+//		driver.navigate().to("https://www.google.com");
+//		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
+//	}
+//	
+//	@Test
+//	public void test6() {
+//		WebDriver driver = DriverFactory.getDriver();
+//		driver.navigate().to("https://www.google.com");
+//		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
+//	}
 	
 
 }
