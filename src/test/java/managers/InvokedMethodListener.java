@@ -43,7 +43,7 @@ public class InvokedMethodListener implements IInvokedMethodListener {
 
 				File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 				try {
-					String dest = "/home/nitish/testSuitePictures/";
+					String dest = "/home/ubuntu/testSuitePictures/";
 					String fileName = new Timestamp(System.currentTimeMillis()).toString() + ".png";
 					System.out.println("Screenshot taken: " + fileName);
 					FileHandler.copy(src, new File(dest+"/pic.png"));
