@@ -59,8 +59,6 @@ public class InvokedMethodListener implements IInvokedMethodListener {
 			if (driver != null) {
 				driver.quit();
 			}
-			System.out.print("\n\n\n");
-			System.out.println("DEV DEBUGGING BELOW");
 		}
 	}
 }
