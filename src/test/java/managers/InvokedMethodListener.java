@@ -33,7 +33,7 @@ public class InvokedMethodListener implements IInvokedMethodListener {
 		if (method.isTestMethod()) {
 //			System.out.println("Current Thread ended " + Thread.currentThread().getId());
 			WebDriver driver = DriverFactory.getDriver();
-			System.out.println();
+			System.out.println("+++++++++++++");
 
 			if (testResult.getStatus() == ITestResult.SUCCESS) {
 				System.out.println(method.getTestMethod().getMethodName() + " was successful!");

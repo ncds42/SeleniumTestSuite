@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="5" name="Suite" parallel="methods">
+<suite thread-count="1" name="Suite" parallel="methods">
 	<listeners>
 		<listener class-name="managers.InvokedMethodListener"></listener>
 	</listeners>
-	<test name="00000" parallel="methods" thread-count="5">
+	<test name="00000" parallel="methods" thread-count="1">
 		<parameter name="browser" value="headlessChrome" />
 		<parameter name="remote"  value="false"/>
 		<parameter name="gridUrl" value="http://3.17.201.180:4444/wd/hub"/>
 		<classes>
-			<class name="tests.SampleTest" />
+			<!-- <class name="tests.SampleTest" /> -->
+			<class name="tests.JoinUs" />
+			<class name="tests.FindMyProfile" />
 		</classes>
 	</test>
 </suite>

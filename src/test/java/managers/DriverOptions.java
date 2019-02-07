@@ -47,6 +47,7 @@ public class DriverOptions {
 		System.setProperty("webdriver.chrome.args", "--disable-logging");
 		System.setProperty("webdriver.chrome.silentOutput", "true");
 		options.addArguments("--headless");
+		options.addArguments("--start-maximized");
 		options.addArguments("--ignore-certificate-errors");
 		options.addArguments("--disable-popup-blocking");
 		options.setCapability("platform", "LINUX");
