@@ -9,16 +9,28 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">00000</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">6,298</td><td></td><td></td></tr>
+<tr><td><a href="#t0">00000</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">28,038</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">00000 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">tests.SampleTest</td><td><a href="#m0">test</a></td><td rowspan="1">1549243713411</td><td rowspan="1">4076</td></tr><tr class="passedeven"><td><a href="#m1">test1</a></td><td rowspan="1">1549243713411</td><td rowspan="1">4107</td></tr><tr class="passedeven"><td><a href="#m2">test2</a></td><td rowspan="1">1549243713411</td><td rowspan="1">4107</td></tr><tr class="passedeven"><td><a href="#m3">test3</a></td><td rowspan="1">1549243713411</td><td rowspan="1">4116</td></tr><tr class="passedeven"><td><a href="#m4">test4</a></td><td rowspan="1">1549243713411</td><td rowspan="1">4114</td></tr><tr class="passedeven"><td><a href="#m5">test5</a></td><td rowspan="1">1549243717552</td><td rowspan="1">1741</td></tr><tr class="passedeven"><td><a href="#m6">test6</a></td><td rowspan="1">1549243717578</td><td rowspan="1">2062</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">00000 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.FindMyProfile</td><td><a href="#m0">findMyProfileTest</a></td><td rowspan="1">1551733607371</td><td rowspan="1">2360</td></tr><tr class="failedodd"><td rowspan="1">tests.JoinUs</td><td><a href="#m1">joinUsTest</a></td><td rowspan="1">1551733581936</td><td rowspan="1">25289</td></tr></tbody>
 </table>
-<h2>00000</h2><h3 id="m0">tests.SampleTest#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.SampleTest#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.SampleTest#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.SampleTest#test3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">tests.SampleTest#test4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">tests.SampleTest#test5</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">tests.SampleTest#test6</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>00000</h2><h3 id="m0">tests.FindMyProfile#findMyProfileTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User[Nitish Chauhan]not found! expected [true] but found [false]
+	at tests.FindMyProfile.findMyProfileTest(FindMyProfile.java:57)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.JoinUs#joinUsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of any elements located by By.id: address (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;RokLightning&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-45-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:35733}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: b3fb58222c8c2a342ad40d042dbfd4f7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at tests.JoinUs.joinUsTest(JoinUs.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

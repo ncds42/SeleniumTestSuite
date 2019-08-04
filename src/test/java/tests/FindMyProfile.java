@@ -24,20 +24,15 @@ public class FindMyProfile {
 
 	@Test
 	public void findMyProfileTest() {
-		System.out.print("\n\n");
-		System.out.println("-------------------------------------");
-		System.out.println("Find My Profile Test begun..");
 		WebDriver driver = DriverFactory.getDriver();
 		Wait<WebDriver> wait = DriverFactory.getWait(driver);
 
 		driver.get("http://alistgear.com");
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.className("joinUsBt")));
-		System.out.println("Reached alistgear.com");
 
 		driver.findElement(By.className("my_profile-bt")).click();
 		
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("fname")));
-		System.out.println("Find My Profile page reached");
 
 		WebElement fname, lname;
 		fname = driver.findElement(By.id("fname"));

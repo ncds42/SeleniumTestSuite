@@ -1,0 +1,790 @@
+[
+	{
+		"name": "Stephen V. David, Ph.D.",
+		"affiliation": [
+			"University of Maryland",
+			"College Park",
+			"College Park",
+			"MD  2012",
+			"Oregon Hearing Research Center",
+			"Oregon Health and Science",
+			"University",
+			"Portland",
+			"OR Mean distance"
+		],
+		"parents": [
+			{
+				"name": "Jonathan Wolpaw",
+				"title": "research assistant",
+				"year": "1993-1994",
+				"affiliation": "New York State Department of Health"
+			},
+			{
+				"name": "Roger W. Brockett",
+				"title": "research assistant",
+				"year": "1994-1996",
+				"affiliation": "Harvard"
+			},
+			{
+				"name": "Jack L. Gallant",
+				"title": "grad student",
+				"year": "1998-2005",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Shihab A. Shamma",
+				"title": "post-doc",
+				"year": "2005-2012",
+				"affiliation": "University of Maryland"
+			}
+		],
+		"children": [
+			{
+				"name": "George Chakalos",
+				"title": "research assistant",
+				"year": "2018-",
+				"affiliation": "OHSU"
+			},
+			{
+				"name": "Henry Cooney",
+				"title": "research assistant",
+				"year": "2012-2014",
+				"affiliation": "OHSU"
+			},
+			{
+				"name": "Will R. Chertoff",
+				"title": "research assistant",
+				"year": "2015-2015",
+				"affiliation": "OHSU"
+			},
+			{
+				"name": "Daniela Saderi",
+				"title": "grad student",
+				"year": "2013-",
+				"affiliation": "OHSU"
+			},
+			{
+				"name": "Zack Schwartz",
+				"title": "grad student",
+				"year": "2014-",
+				"affiliation": "OHSU"
+			},
+			{
+				"name": "Charles Heller",
+				"title": "grad student",
+				"year": "2017-",
+				"affiliation": "OHSU"
+			},
+			{
+				"name": "Mateo Lopez Espejo",
+				"title": "grad student",
+				"year": "2017-",
+				"affiliation": "OHSU"
+			},
+			{
+				"name": "Brad N. Buran",
+				"title": "post-doc",
+				"year": "2014-",
+				"affiliation": "OHSU"
+			},
+			{
+				"name": "Luke Shaheen",
+				"title": "post-doc",
+				"year": "2016-",
+				"affiliation": "OHSU"
+			},
+			{
+				"name": "Jesyin Lai",
+				"title": "post-doc",
+				"year": "2017-",
+				"affiliation": "OHSU"
+			},
+			{
+				"name": "Ivar Thorson",
+				"title": "post-doc",
+				"year": "2012-2014",
+				"affiliation": "OHSU"
+			},
+			{
+				"name": "Sean J. Slee",
+				"title": "post-doc",
+				"year": "2012-2017",
+				"affiliation": "OHSU"
+			},
+			{
+				"name": "Jean Liénard",
+				"title": "post-doc",
+				"year": "2016-2017",
+				"affiliation": "OHSU"
+			}
+		]
+	},
+	{
+		"name": "Benjamin Y. Hayden",
+		"affiliation": [
+			"2017",
+			"Neuroscience University of Minnesota",
+			"Twin Cities",
+			"Minneapolis",
+			"MN Mean distance"
+		],
+		"parents": [
+			{
+				"name": "Jack L. Gallant",
+				"title": "grad student",
+				"year": "2000-2005",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Michael L. Platt",
+				"title": "post-doc",
+				"year": "2005-2011",
+				"affiliation": "Duke"
+			}
+		],
+		"children": [
+			{
+				"name": "Brianna J. Sleezer",
+				"title": "grad student",
+				"year": "",
+				"affiliation": "Rochester"
+			},
+			{
+				"name": "Tommy C. Blanchard",
+				"title": "grad student",
+				"year": "2011-",
+				"affiliation": "Rochester"
+			},
+			{
+				"name": "Caleb E. Strait",
+				"title": "grad student",
+				"year": "2011-",
+				"affiliation": "Rochester"
+			},
+			{
+				"name": "Habiba Azab",
+				"title": "grad student",
+				"year": "2014-",
+				"affiliation": "Rochester"
+			},
+			{
+				"name": "Maya Zhe Wang",
+				"title": "grad student",
+				"year": "2014-",
+				"affiliation": "Rochester"
+			},
+			{
+				"name": "Seng-Bum Michael Yoo",
+				"title": "grad student",
+				"year": "2015-",
+				"affiliation": "Rochester"
+			},
+			{
+				"name": "Alexander Thome",
+				"title": "post-doc",
+				"year": "2013-",
+				"affiliation": "Rochester"
+			},
+			{
+				"name": "Rei Akaishi",
+				"title": "post-doc",
+				"year": "2016-",
+				"affiliation": "Rochester"
+			},
+			{
+				"name": "R Becket Ebitz",
+				"title": "research scientist",
+				"year": "2017-",
+				"affiliation": "Rochester"
+			}
+		]
+	},
+	{
+		"name": "Jack L. Gallant",
+		"affiliation": [
+			"Psychology University of California",
+			"Berkeley",
+			"Berkeley",
+			"CA Mean distance"
+		],
+		"parents": [
+			{
+				"name": "Stephen E. Palmer",
+				"title": "research assistant",
+				"year": "",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Wendell R (Tex) Garner",
+				"title": "grad student",
+				"year": "",
+				"affiliation": "Yale"
+			},
+			{
+				"name": "Joy Hirsch",
+				"title": "grad student",
+				"year": "",
+				"affiliation": "Yale"
+			},
+			{
+				"name": "David C. Van Essen",
+				"title": "post-doc",
+				"year": "",
+				"affiliation": "Washington University"
+			}
+		],
+		"children": [
+			{
+				"name": "Joseph P. Rogers",
+				"title": "grad student",
+				"year": "",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "James Gao",
+				"title": "grad student",
+				"year": "2009-",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Alexander G. Huth",
+				"title": "grad student",
+				"year": "2009-",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Natalia Y. Bilenko",
+				"title": "grad student",
+				"year": "2010-",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Anwar O. Nunez-Elizalde",
+				"title": "grad student",
+				"year": "2011-",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Sara F. Popham",
+				"title": "grad student",
+				"year": "2015-",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Carson K McNeil",
+				"title": "grad student",
+				"year": "2017-",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "William Vinje",
+				"title": "grad student",
+				"year": "1996-2002",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Stephen V. David",
+				"title": "grad student",
+				"year": "1998-2005",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Benjamin Y. Hayden",
+				"title": "grad student",
+				"year": "2000-2005",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Kathleen A. Hansen",
+				"title": "grad student",
+				"year": "2001-2006",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Kate A. Gustavsen",
+				"title": "grad student",
+				"year": "2000-2007",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Michael C.-K. Wu",
+				"title": "grad student",
+				"year": "2002-2007",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Ryan Prenger",
+				"title": "grad student",
+				"year": "2002-2008",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Kendrick Norris Kay",
+				"title": "grad student",
+				"year": "2003-2009",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "An Thanh Vu",
+				"title": "grad student",
+				"year": "2006-2011",
+				"affiliation": "UCSF"
+			},
+			{
+				"name": "Michael D. Oliver",
+				"title": "grad student",
+				"year": "2007-2011",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Dustin E. Stansbury",
+				"title": "grad student",
+				"year": "2008-2014",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Rachel Shoup",
+				"title": "post-doc",
+				"year": "",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Thomas Naselaris",
+				"title": "post-doc",
+				"year": "2005-",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Tolga Cukur",
+				"title": "post-doc",
+				"year": "2010-",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Mark D. Lescroart",
+				"title": "post-doc",
+				"year": "2011-",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Matteo Visconti di Oleggio Castello",
+				"title": "post-doc",
+				"year": "2018-",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "James A. Mazer",
+				"title": "post-doc",
+				"year": "2004",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Benjamin Willmore",
+				"title": "post-doc",
+				"year": "2003-2006",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Cynthia A. Erickson",
+				"title": "post-doc",
+				"year": "2004-2007",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Shinji Nishimoto",
+				"title": "post-doc",
+				"year": "2005-2013",
+				"affiliation": "UC Berkeley"
+			}
+		]
+	},
+	{
+		"name": "Benjamin  Willmore, Ph.D.",
+		"affiliation": [
+			"University of Oxford",
+			"Oxford",
+			"United Kingdom Mean distance"
+		],
+		"parents": [
+			{
+				"name": "David J. Tolhurst",
+				"title": "grad student",
+				"year": "1999-2002",
+				"affiliation": "Cambridge"
+			},
+			{
+				"name": "Andrew J. King",
+				"title": "post-doc",
+				"year": "2006-",
+				"affiliation": "Oxford"
+			},
+			{
+				"name": "Jack L. Gallant",
+				"title": "post-doc",
+				"year": "2003-2006",
+				"affiliation": "UC Berkeley"
+			}
+		],
+		"children": [
+			{
+				"name": "Monzilur Rahman",
+				"title": "grad student",
+				"year": "2015-",
+				"affiliation": "Oxford"
+			},
+			{
+				"name": "Aleksandar Ivanov",
+				"title": "grad student",
+				"year": "2016-",
+				"affiliation": "Oxford"
+			}
+		]
+	},
+	{
+		"name": "Kendrick Norris Kay, Ph.D.",
+		"affiliation": [
+			"2013",
+			"2015 Psychology Washington University",
+			"Saint Louis",
+			"St"
+		],
+		"parents": [
+			{
+				"name": "Jack L. Gallant",
+				"title": "grad student",
+				"year": "2003-2009",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Brian A. Wandell",
+				"title": "post-doc",
+				"year": "2009-2013",
+				"affiliation": "Stanford"
+			}
+		],
+		"children": [
+			{
+				"name": "Ruyuan Zhang",
+				"title": "post-doc",
+				"year": "2016-",
+				"affiliation": "UMN"
+			},
+			{
+				"name": "Emily J. Allen",
+				"title": "post-doc",
+				"year": "2018-",
+				"affiliation": "UMN"
+			}
+		]
+	},
+	{
+		"name": "Ryan  Prenger",
+		"affiliation": [
+			"Lawrence Livermore National Laboratory",
+			"Livermore",
+			"CA",
+			"United States  Baidu",
+			"Mean distance"
+		],
+		"parents": [
+			{
+				"name": "Jack L. Gallant",
+				"title": "grad student",
+				"year": "2002-2008",
+				"affiliation": "UC Berkeley"
+			}
+		],
+		"children": []
+	},
+	{
+		"name": "James A. Mazer",
+		"affiliation": [
+			"Yale University",
+			"New Haven",
+			"CT  Montana State",
+			"University",
+			"Bozeman",
+			"MT  Massachusetts Institute",
+			"of Technology",
+			"Cambridge",
+			"MA",
+			"United States Mean distance"
+		],
+		"parents": [
+			{
+				"name": "Patricia Goldman-Rakic",
+				"title": "research assistant",
+				"year": "",
+				"affiliation": "Yale"
+			},
+			{
+				"name": "Mark Konishi",
+				"title": "grad student",
+				"year": "",
+				"affiliation": "Caltech"
+			},
+			{
+				"name": "Peter H. Schiller",
+				"title": "post-doc",
+				"year": "",
+				"affiliation": "MIT"
+			},
+			{
+				"name": "Jack L. Gallant",
+				"title": "post-doc",
+				"year": "2004",
+				"affiliation": "UC Berkeley"
+			}
+		],
+		"children": [
+			{
+				"name": "Adam James Thuen",
+				"title": "grad student",
+				"year": "2017-",
+				"affiliation": "Montana State"
+			},
+			{
+				"name": "Julie D. Golomb",
+				"title": "grad student",
+				"year": "2004-2009",
+				"affiliation": "Yale"
+			},
+			{
+				"name": "Matthew R. Krause",
+				"title": "grad student",
+				"year": "2005-2012",
+				"affiliation": "Yale"
+			},
+			{
+				"name": "Shengtao Yang",
+				"title": "post-doc",
+				"year": "",
+				"affiliation": ""
+			},
+			{
+				"name": "Jonathan Touryan",
+				"title": "post-doc",
+				"year": "2005-2008",
+				"affiliation": "Yale"
+			},
+			{
+				"name": "Monica Cano",
+				"title": "research scientist",
+				"year": "2006-",
+				"affiliation": "Yale University Medical School"
+			}
+		]
+	},
+	{
+		"name": "Kathleen A. Hansen",
+		"affiliation": [
+			"National Institute of Mental",
+			"Health",
+			"Bethesda",
+			"MD",
+			"United States Mean distance"
+		],
+		"parents": [
+			{
+				"name": "Yang Dan",
+				"title": "research assistant",
+				"year": "",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Jack L. Gallant",
+				"title": "grad student",
+				"year": "2001-2006",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Leslie Ungerleider",
+				"title": "post-doc",
+				"year": "2006-2012",
+				"affiliation": "NIMH"
+			}
+		],
+		"children": []
+	},
+	{
+		"name": "Melvin P. Klein, Ph.D.",
+		"affiliation": [
+			"University of California",
+			"Berkeley",
+			"Berkeley",
+			"CA Mean distance"
+		],
+		"parents": [
+			{
+				"name": "Cornelius Anthony Tobias",
+				"title": "research assistant",
+				"year": "1942",
+				"affiliation": "UC Berkeley"
+			}
+		],
+		"children": [
+			{
+				"name": "Victoria J. DeRose",
+				"title": "grad student",
+				"year": "",
+				"affiliation": "UC Berkeley (Chemistry Tree)"
+			},
+			{
+				"name": "Daniel Axelrod",
+				"title": "grad student",
+				"year": "1974",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Gregory S. Karczmar",
+				"title": "grad student",
+				"year": "1984",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Alan P. Koretsky",
+				"title": "grad student",
+				"year": "1984",
+				"affiliation": "UC Berkeley (Neurotree)"
+			},
+			{
+				"name": "Ann E. McDermott",
+				"title": "grad student",
+				"year": "1987",
+				"affiliation": "UC Berkeley (Chemistry Tree)"
+			},
+			{
+				"name": "R. David Britt",
+				"title": "grad student",
+				"year": "1988",
+				"affiliation": "UC Berkeley"
+			},
+			{
+				"name": "Edward A. Dratz",
+				"title": "post-doc",
+				"year": "1967",
+				"affiliation": "UC Berkeley (Chemistry Tree)"
+			},
+			{
+				"name": "John L. Markley",
+				"title": "post-doc",
+				"year": "1970-1971",
+				"affiliation": "UC Berkeley (Chemistry Tree)"
+			}
+		]
+	},
+	{
+		"name": "C Edward Connor",
+		"affiliation": [
+			"Johns Hopkins University",
+			"Baltimore",
+			"MD Mean distance"
+		],
+		"parents": [
+			{
+				"name": "Kenneth O. Johnson",
+				"title": "grad student",
+				"year": "",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "Gian F. Poggio",
+				"title": "post-doc",
+				"year": "",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "Michael Steinmetz",
+				"title": "post-doc",
+				"year": "",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "David C. Van Essen",
+				"title": "post-doc",
+				"year": "",
+				"affiliation": "Washington University"
+			}
+		],
+		"children": [
+			{
+				"name": "Jeffrey M. Yau",
+				"title": "grad student",
+				"year": "",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "Anitha Pasupathy",
+				"title": "grad student",
+				"year": "2001",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "David A. Hinkle",
+				"title": "grad student",
+				"year": "2004",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "Scott L. Brincat",
+				"title": "grad student",
+				"year": "2006",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "Russell J. Rasquinha",
+				"title": "grad student",
+				"year": "2007-2009",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "Eric T. Carlson",
+				"title": "grad student",
+				"year": "2002-2011",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "Chia-Chun (Alden) Hung",
+				"title": "grad student",
+				"year": "2005-2011",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "Neeraja M. Balachander",
+				"title": "grad student",
+				"year": "2003-2012",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "Katherine C. Scott",
+				"title": "grad student",
+				"year": "2003-2013",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "Yukako Yamane",
+				"title": "post-doc",
+				"year": "",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "Trinity B. Crapse",
+				"title": "post-doc",
+				"year": "2010-",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "Sach Sokol",
+				"title": "post-doc",
+				"year": "2012-2015",
+				"affiliation": "Johns Hopkins"
+			},
+			{
+				"name": "William Vinje",
+				"title": "research scientist",
+				"year": "2010-",
+				"affiliation": "Johns Hopkins"
+			}
+		]
+	}
+]

@@ -14,11 +14,11 @@ public class DriverOptions {
 		ChromeOptions options = new ChromeOptions();
 		System.setProperty("webdriver.chrome.args", "--disable-logging");
 		System.setProperty("webdriver.chrome.silentOutput", "true");
-		options.addArguments("--start-maximized");
+		options.addArguments("--start-maximized"); // This will help with viewport problems
 		options.addArguments("--ignore-certificate-errors");
-		options.addArguments("--disable-popup-blocking");
-		options.setCapability("platform", "LINUX");
-		options.addArguments("--incognito");
+		options.addArguments("--disable-popup-blocking"); // Popups will change the focus so disabled is best
+		options.setCapability("platform", "LINUX"); 
+		options.addArguments("--incognito"); // Cookies will sometimes change the view of the page so disable
 		options.addArguments("--silent");
 		options.addArguments("--log-level=3");
 		return options;
@@ -27,12 +27,9 @@ public class DriverOptions {
 	public FirefoxOptions getFirefoxOptions() {
 		FirefoxOptions options = new FirefoxOptions();
 		FirefoxProfile profile = new FirefoxProfile();
-		// Accept Untrusted Certificates
 		profile.setAcceptUntrustedCertificates(true);
 		profile.setAssumeUntrustedCertificateIssuer(false);
-		// Use No Proxy Settings
 		profile.setPreference("network.proxy.type", 0);
-		// Set Firefox profile to capabilities
 		options.setProfile(profile);
 		
 		options.addPreference("--log", "error");

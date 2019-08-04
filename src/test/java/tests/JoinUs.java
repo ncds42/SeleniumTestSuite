@@ -57,6 +57,5 @@ public class JoinUs {
 		System.out.println("New user submit attempted");
 
 		Assert.assertFalse(true, "No confirmation email sent");
-
 	}
 }

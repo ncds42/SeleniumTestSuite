@@ -12,11 +12,14 @@ import org.testng.IInvokedMethod;
 import org.testng.IInvokedMethodListener;
 import org.testng.ITestResult;
 
+/* This class will handle all before and after methods for each unit test. It is referenced
+ * by the testng.xml and is the magic sauce to creating parallel tests without race conditions on Selenium Grid
+ */
+
 public class InvokedMethodListener implements IInvokedMethodListener {
 
 	public void beforeInvocation(IInvokedMethod method, ITestResult testResult) {
 		if (method.isTestMethod()) {
-//			System.out.println("New Thread Started " + Thread.currentThread().getId());
 			String browserName = method.getTestMethod().getXmlTest().getLocalParameters().get("browser");
 			Boolean remote = Boolean
 					.parseBoolean(method.getTestMethod().getXmlTest().getLocalParameters().get("remote"));
@@ -62,3 +65,5 @@ public class InvokedMethodListener implements IInvokedMethodListener {
 		}
 	}
 }
+
+//System.out.println("New Thread Started " + Thread.currentThread().getId()); // DEBUGGING
