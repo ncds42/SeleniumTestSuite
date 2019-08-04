@@ -24,20 +24,15 @@ public class JoinUs {
 
 	@Test
 	public void joinUsTest() {
-		System.out.print("\n\n");
-		System.out.println("-------------------------------------");
-		System.out.println("Join Us Test begun..");
 		WebDriver driver = DriverFactory.getDriver();
 		Wait<WebDriver> wait = DriverFactory.getWait(driver);
 
 		driver.get("http://alistgear.com");
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.className("joinUsBt")));
-		System.out.println("Reached alistgear.com");
 
 		WebElement joinUsButton = driver.findElement(By.className("join_us-bt"));
 		joinUsButton.click();
 		wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.id("address")));
-		System.out.println("Join Us Form reached");
 
 		WebElement city = driver.findElement(By.id("city"));
 		city.sendKeys("Huntsville");
@@ -51,10 +46,10 @@ public class JoinUs {
 		companyAffiliation.sendKeys("none");
 		WebElement areasOfInterest = driver.findElement(By.id("areaOi"));
 		areasOfInterest.sendKeys("selenium");
-		System.out.println("Forms filled");
+
 
 		driver.findElement(By.id("email-submit")).click();
-		System.out.println("New user submit attempted");
+		
 
 		Assert.assertFalse(true, "No confirmation email sent");
 	}

@@ -44,7 +44,7 @@ public class FindMyProfile {
 		System.out.println("Searching known user: " + knownFname + " " + knownLname);
 		fname.sendKeys("Nitish");
 		lname.sendKeys("Chauhan");
-		
+			
 		driver.findElement(By.id("profileme")).click();
 		
 		try {

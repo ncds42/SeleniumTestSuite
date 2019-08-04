@@ -23,9 +23,11 @@ public class SearchNetworkTest {
 		for(Person p : list) {
 			System.out.println(p.toString());
 		}
+		// TODO Once Website is live check if people are searchable on the network	
 		
 	}
 	
+	/* Anonymous classes for parsing JSON to object */
 	class Person{
 		String name;
 		ArrayList<String> affiliation;

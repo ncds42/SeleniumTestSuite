@@ -16,8 +16,15 @@ import org.testng.ITestResult;
  * by the testng.xml and is the magic sauce to creating parallel tests without race conditions on Selenium Grid
  */
 
+
+/**
+ * @author nitish
+ * This class will handle all before and after methods for each unit test. It is referenced
+ * by the testng.xml and is the magic sauce to creating parallel tests without race conditions on Selenium Grid
+ */
 public class InvokedMethodListener implements IInvokedMethodListener {
 
+	/* This will be the @before method for every unit test */
 	public void beforeInvocation(IInvokedMethod method, ITestResult testResult) {
 		if (method.isTestMethod()) {
 			String browserName = method.getTestMethod().getXmlTest().getLocalParameters().get("browser");
@@ -31,12 +38,11 @@ public class InvokedMethodListener implements IInvokedMethodListener {
 			}
 		}
 	}
-
+	
+	/* This will be the @after method for every unit test */
 	public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
 		if (method.isTestMethod()) {
-//			System.out.println("Current Thread ended " + Thread.currentThread().getId());
 			WebDriver driver = DriverFactory.getDriver();
-			System.out.println("+++++++++++++");
 
 			if (testResult.getStatus() == ITestResult.SUCCESS) {
 				System.out.println(method.getTestMethod().getMethodName() + " was successful!");
@@ -44,6 +50,7 @@ public class InvokedMethodListener implements IInvokedMethodListener {
 				System.out.println(method.getTestMethod().getMethodName() + " failed!");
 				System.out.println(testResult.getThrowable().getMessage());
 
+				/* If a test fails, a screenshot will be created and stored in testSuitePictures */
 				File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 				try {
 					String dest = "testSuitePictures/";
@@ -60,7 +67,7 @@ public class InvokedMethodListener implements IInvokedMethodListener {
 
 			}
 			if (driver != null) {
-				driver.quit();
+				driver.quit(); /* Cleans up the WebDriver object */
 			}
 		}
 	}

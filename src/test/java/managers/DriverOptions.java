@@ -39,6 +39,8 @@ public class DriverOptions {
 		return options;
 	}
 	
+	
+	/* Headless chrome is useful for remote testing on AWS since there is no GUI for WebDriver to act on. */
 	public ChromeOptions getHeadlessChromeOptions() {
 		ChromeOptions options = new ChromeOptions();
 		System.setProperty("webdriver.chrome.args", "--disable-logging");
