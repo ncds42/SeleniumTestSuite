@@ -5,9 +5,9 @@
 		<listener class-name="managers.InvokedMethodListener"></listener>
 	</listeners>
 	<test name="00000">
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="headlessChrome" />
 		<parameter name="remote"  value="false"/>
-		<parameter name="gridUrl" value="http://3.17.201.180:4444/wd/hub"/>
+		<parameter name="gridUrl" value="http://localhost:4444/wd/hub"/>
 		<classes>
 			<class name="tests.SampleTest" /> 
 		</classes>

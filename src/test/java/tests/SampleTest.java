@@ -23,12 +23,6 @@ public class SampleTest {
 	public void Test1() {
 		WebDriver driver = DriverFactory.getDriver();
 		driver.navigate().to("https://www.google.com");
-		try {
-			Thread.sleep(10000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"));
 	}
 	
